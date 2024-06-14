@@ -22,3 +22,4 @@ cryptography==42.0.8
 jose==1.0.0
 python-jose==3.3.0
 psycopg2-binary==2.9.9
+gunicorn==20.1.0
