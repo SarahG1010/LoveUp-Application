@@ -4,15 +4,15 @@ from flask_sqlalchemy import SQLAlchemy
 import json
 
 ## local database path
-database_name = 'movie_child'
-database_path = 'postgresql://{}/{}'.format('localhost:5432', database_name)
+# database_name = 'movie_child'
+# database_path = 'postgresql://{}/{}'.format('localhost:5432', database_name)
 
 ## environment database path
-'''
+
 database_path = os.environ['DATABASE_URL']
 if database_path.startswith("postgres://"):
   database_path = database_path.replace("postgres://", "postgresql://", 1)
-'''
+
 db = SQLAlchemy()
 
 #database_filename = "database.db"
